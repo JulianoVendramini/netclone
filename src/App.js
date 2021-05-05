@@ -3,13 +3,33 @@ import Tmdb from './Tmdb';
 import './App.css';
 import MovieRow from './components/MovieRow'
 import FeaturedMovie from './components/FeaturedMovie';
+import Header from './components/Header';
+import Footer from './components/Footer';
+
 
 
 
 export default () => {
 
   const [movieList, setMovieList] = useState([]);
-  const [featuredData, setFeaturedData] = useState(null)
+  const [featuredData, setFeaturedData] = useState(null);
+  const [backGroundBlack, setBackGroundBlack] = useState(false);
+
+  useEffect(() =>{
+    let scrollListener  = () =>{
+        if(window.scrollY > 10){
+          setBackGroundBlack(true);
+        }else{
+          setBackGroundBlack(false);
+        }
+    }
+
+    window.addEventListener('scroll', scrollListener);
+
+    return () => {
+      window.removeEventListener('scroll', scrollListener);
+    }
+  }, []);
 
   useEffect(() =>{
     const loadAll = async () => {
@@ -32,7 +52,9 @@ export default () => {
   }, []);
 
   return(
+    
     <div className="page">
+      <Header black={backGroundBlack}/>
       {featuredData &&
       <FeaturedMovie item = {featuredData}/>
       }
@@ -41,6 +63,13 @@ export default () => {
             <MovieRow key={key} title = {item.title} items={item.items}/>
           ))}
         </section>
+
+        <Footer />
+        {movieList.length <= 0 && 
+        <div className="loading">
+          <img src="https://media.wired.com/photos/592744d3f3e2356fd800bf00/master/w_2560%2Cc_limit/Netflix_LoadTime.gif" alt="carregando"/>
+        </div>
+      }
     </div>
   );
 }
