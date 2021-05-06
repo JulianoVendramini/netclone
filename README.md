@@ -14,7 +14,7 @@ Who are starting with ReactJS like me, I highly recommend try to do the componen
 You must have npm installed (if you dont... https://docs.npmjs.com/cli/v7/commands/npm-install or just type "npm install in your cmd).
 After installing npm: go to the main directory and type "npm start" in cmd.The project will be running in: http://localhost:3000/.
 
-# ------------------------------------------------------------------
+# ----------------------------------------------------------------
 
 # -Português.
 
@@ -27,7 +27,7 @@ Quem estiver começando com ReactJS como eu, recomendo muito que tente fazer os 
 Você já tem que ter instalado o npm (se não tiver... https://docs.npmjs.com/cli/v7/commands/npm-install ou só digite "npm install" no cmd).
 Depois de instalar o npm: Vá para a pasta principal e digite "npm start" no cmd. O projeto vai rodar em http://localhost:3000/.
 
-# ------------------------------------------------------------------
+# ----------------------------------------------------------------
 
 ## Featured Movie (Vídeo em destaque)
 ![featured-Movie](https://github.com/JulianoVendramini/netclone/blob/main/images/filme-em-destaque.PNG)
