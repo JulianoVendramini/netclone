@@ -35,7 +35,7 @@ export default () => {
     const loadAll = async () => {
       //Pegando a lista dos filmes
       let list = await Tmdb.getHomeList();
-      setMovieList(list);
+      //setMovieList(list);
 
       //Pegando filme em destaque
       let originals = list.filter(i=>i.slug === 'originals')
