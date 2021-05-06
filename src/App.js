@@ -55,28 +55,23 @@ export default () => {
     
     <div className="page">
       <Header black={backGroundBlack}/>
-      
+      {featuredData &&
+      <FeaturedMovie item = {featuredData}/>
+      }
         <section className="lists">
-        <h1>teste</h1>
+          {movieList.map((item, key) => (
+            <MovieRow key={key} title = {item.title} items={item.items}/>
+          ))}
         </section>
 
         <Footer />
-        {movieList.length <= 0 && 
-        <div className="loading">
-          <img src="https://media.wired.com/photos/592744d3f3e2356fd800bf00/master/w_2560%2Cc_limit/Netflix_LoadTime.gif" alt="carregando"/>
-        </div>
-      }
+        
     </div>
   );
 }
 
-/*{featuredData &&
-      <FeaturedMovie item = {featuredData}/>
-      }
-       */
-
-/*className="lists">
-          {movieList.map((item, key) => (
-            <MovieRow key={key} title = {item.title} items={item.items}/>
-          ))}
-        */
+/*{movieList.length <= 0 && 
+        <div className="loading">
+          <img src="https://media.wired.com/photos/592744d3f3e2356fd800bf00/master/w_2560%2Cc_limit/Netflix_LoadTime.gif" alt="carregando"/>
+        </div>
+      } */
