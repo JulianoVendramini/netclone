@@ -35,7 +35,7 @@ export default () => {
     const loadAll = async () => {
       //Pegando a lista dos filmes
       let list = await Tmdb.getHomeList();
-      //setMovieList(list);
+      setMovieList(list);
 
       //Pegando filme em destaque
       let originals = list.filter(i=>i.slug === 'originals')
@@ -54,19 +54,11 @@ export default () => {
   return(
     
     <div className="page">
-      
+      <Header black={backGroundBlack}/>
       {featuredData &&
       <FeaturedMovie item = {featuredData}/>
       }
-        
-    </div>
-  );
-}
-
-/*
-<Header black={backGroundBlack}/>
-
-<section className="lists">
+        <section className="lists">
           {movieList.map((item, key) => (
             <MovieRow key={key} title = {item.title} items={item.items}/>
           ))}
@@ -78,4 +70,6 @@ export default () => {
           <img src="https://media.wired.com/photos/592744d3f3e2356fd800bf00/master/w_2560%2Cc_limit/Netflix_LoadTime.gif" alt="carregando"/>
         </div>
       }
-*/
+    </div>
+  );
+}
