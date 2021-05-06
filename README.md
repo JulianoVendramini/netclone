@@ -35,11 +35,14 @@ Depois de instalar o npm: Vá para a pasta principal e digite "npm start" no cmd
 ## Movie/Tv Serie lists (lista de filme/série)
 ![tv-lists](https://github.com/JulianoVendramini/netclone/blob/main/images/lista-filmes.PNG)
 
-##A short video to show about the project. (Um pequeno vídeo para mostrar o projeto)  
+## A short video to show about the project. (Um pequeno vídeo para mostrar o projeto)  
 [DemoVideo](https://youtu.be/M5x28Fo9TpQ)
 
 ##Loading Screen (Tela de carregamento)  
 [LoadingScreen](https://media.wired.com/photos/592744d3f3e2356fd800bf00/master/w_2560%2Cc_limit/Netflix_LoadTime.gif)
+
+## Site
+[NetClone](https://netclone.vercel.app/)
 
 
 
