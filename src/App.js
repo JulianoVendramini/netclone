@@ -55,13 +55,9 @@ export default () => {
     
     <div className="page">
       <Header black={backGroundBlack}/>
-      {featuredData &&
-      <FeaturedMovie item = {featuredData}/>
-      }
+      
         <section className="lists">
-          {movieList.map((item, key) => (
-            <MovieRow key={key} title = {item.title} items={item.items}/>
-          ))}
+        <h1>teste</h1>
         </section>
 
         <Footer />
@@ -73,3 +69,14 @@ export default () => {
     </div>
   );
 }
+
+/*{featuredData &&
+      <FeaturedMovie item = {featuredData}/>
+      }
+       */
+
+/*className="lists">
+          {movieList.map((item, key) => (
+            <MovieRow key={key} title = {item.title} items={item.items}/>
+          ))}
+        */
