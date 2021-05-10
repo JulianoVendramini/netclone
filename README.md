@@ -8,6 +8,7 @@
 Well, I use this [video](https://www.youtube.com/watch?v=tBweoUiMsDg&ab_channel=BoniekyLacerda) to learn and practice ReactJS.   
 Im planning to do some stuffs by my self. For ex: an user screen or something else. edit: Im doing it -> [User Page](https://github.com/JulianoVendramini/netclone-user-page)  
 Who are starting with ReactJS like me, I highly recommend try to do the components, js and css before see in the video.
+CopyRight by Netflix.
 
 ## Get Started
 
@@ -20,7 +21,8 @@ After installing npm: go to the main directory and type "npm start" in cmd.The p
 
 Bom, eu usei esse [video](https://www.youtube.com/watch?v=tBweoUiMsDg&ab_channel=BoniekyLacerda) para aprender e praticar ReactJS.  
 Estou planejando fazer algumas coisas sozinho. Por exemplo: Uma tela de usuários ou algo assim.  
-Quem estiver começando com ReactJS como eu, recomendo muito que tente fazer os componentes, js e css antes de ver o vídeo.  
+Quem estiver começando com ReactJS como eu, recomendo muito que tente fazer os componentes, js e css antes de ver o vídeo. 
+CopyRight by Netflix.
 
 ## Iniciando
 
