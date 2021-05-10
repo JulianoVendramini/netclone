@@ -6,7 +6,7 @@
 
 
 Well, I use this [video](https://www.youtube.com/watch?v=tBweoUiMsDg&ab_channel=BoniekyLacerda) to learn and practice ReactJS.   
-Im planning to do some stuffs by my self. For ex: an user screen or something else.  
+Im planning to do some stuffs by my self. For ex: an user screen or something else. edit: Im doing it -> [User Page](https://github.com/JulianoVendramini/netclone-user-page)  
 Who are starting with ReactJS like me, I highly recommend try to do the components, js and css before see in the video.
 
 ## Get Started
